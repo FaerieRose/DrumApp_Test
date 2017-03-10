@@ -1,0 +1,128 @@
+/* https://www.fontsquirrel.com/     */
+/* http://www.css3.me/               */
+
+header, article, footer, div, hgroup, section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: justify;
+  background-color: #ddd;
+}
+
+summary, h1 {
+  font-size: 1.2em;
+  color: #503;
+  font-weight: bold; 
+}
+
+label.lblBeat, input.inBeat {
+  display: inline-block;
+  width: 100px;
+}
+
+/*  Border information */
+#page-footer, aside, .content, #audio {
+  border-color: #50f;
+  border-style: solid;
+  background-color: #ffa;
+}
+
+
+/*  Navbar information                          */
+/*  http://www.w3schools.com/css/css_navbar.asp */
+nav ul li a { 
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 20px 10px 20px;
+}
+
+/*   Header information */
+header {
+  position: relative;
+}
+
+
+hgroup h1 {
+  margin: 0 0 0 40px;
+  font-size: 44px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #a07;
+  font-weight: bold; 
+}
+
+/*   Footer information */
+#page-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 700px;
+  border-radius: 10px 10px 0px 0px;
+  border-width: 2px 2px 0px 2px;
+  padding: 10px;
+}
+
+/*   Main page information */
+.content {
+  float: left;
+  top: 0;
+  width: 700px;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+}
+
+/*   NOTES                */
+#notes {
+  height: 500px;
+}
+
+#divNotes {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+}
+
+img#lines1, img#lines2, img#cursor {
+  position: absolute;
+  left: 40px;
+}
+
+#cursor {
+  z-index: 2;
+  top: 20px;
+}
+
+#lines1 {
+  z-index: 1;
+  top: 20px;
+}
+
+#lines2 {
+  z-index: 1;
+  top: 240px;
+}
+
+.imgNotes {
+  position: absolute;
+  z-index: 3;
+}
+
+#audio {
+  z-index: 2;
+  top: 0px;
+  right: 10%;
+  position: fixed;
+  border-radius: 0px 0px 10px 10px;
+  border-width: 0px 2px 2px 2px;
+  padding: 3px;
+  width: 200px;
+  text-align: center;
+}
